@@ -12,5 +12,11 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variants: {
+    extend: {
+      fontWeight: ["hover"],
+    },
+  },
   plugins: [],
+  mode: "jit",
 };

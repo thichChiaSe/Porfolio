@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+    .btn {
+        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm text-gray-500 tracking-widest transition-all;
+    }
+    .btn:hover {
+        @apply text-[#F7AB0B]/40 border-[#F7AB0B]/40;
+    }
+}
