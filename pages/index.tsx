@@ -6,7 +6,7 @@ import Contact from "../components/Contact";
 import Experience from "../components/Experience";
 import Header from "../components/Header";
 import Project from "../components/Project";
-import Skill from "../components/Skill";
+import Skills from "../components/Skills";
 import TypeWritter from "../components/TypeWritter";
 
 const Home: NextPage = () => {
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       {/* Header*/}
       <Header />
       {/* Typewriter  */}
-      <section id="text-auto" className="snap-center">
+      <section id="text-auto" className="snap-start">
         <TypeWritter />
       </section>
       {/* About  */}
@@ -31,8 +31,8 @@ const Home: NextPage = () => {
         <Experience />
       </section>
       {/* Skill  */}
-      <section id="skill" className="snap-center">
-        <Skill />
+      <section id="skill" className="snap-start">
+        <Skills />
       </section>
       {/* Project  */}
       <section id="project" className="snap-center">
