@@ -1,13 +1,18 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import "react-simple-typewriter/dist/index";
 import BackgroundCircle from "./BackgroundCircle";
+import avatar from "../public/avatar.jpg";
 type Props = {};
-
 export default function TypeWritter({}: Props) {
   const [text, count] = useTypewriter({
-    words: ["Asus", "Rog", "const life = () => breath && pursueYourDreams()"],
+    words: [
+      "Hi, I'm HuyDT",
+      "Dev and designer",
+      "const life = () => breath && pursueYourDreams()",
+    ],
     loop: true,
     delaySpeed: 2000,
   });
@@ -16,7 +21,7 @@ export default function TypeWritter({}: Props) {
       <BackgroundCircle />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://images.unsplash.com/photo-1666618170086-369bd5041bd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+        src={avatar.src}
         alt="avatar"
       />
       <div className="z-20">
