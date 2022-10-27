@@ -9,7 +9,7 @@ type Props = {};
 export default function TypeWritter({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Hi, I'm HuyDT",
+      "Hi, I'm Huy Do",
       "Dev and designer",
       "const life = () => breath && pursueYourDreams()",
     ],
