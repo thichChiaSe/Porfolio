@@ -39,7 +39,7 @@ const Home: NextPage = () => {
         <Project />
       </section>
       {/* Certificate */}
-      <section id="certificate" className="snap-center">
+      <section id="certificate" className="snap-start">
         <Certificate />
       </section>
       {/* Contact  */}

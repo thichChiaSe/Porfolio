@@ -8,4 +8,13 @@
     .btn:hover {
         @apply text-[#F7AB0B]/40 border-[#F7AB0B]/40;
     }
+    .contactInput {
+        @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-gray-500 transition-all;
+    }
+    .contactInput:focus {
+        @apply border-[#F7AB0B]/40 text-[#F7AB0A]/40;
+    }
+    .contactInput:hover {
+        @apply border-[#F7AB0B]/40;
+    }
 }

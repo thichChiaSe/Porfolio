@@ -36,17 +36,21 @@ export default function TypeWritter({}: Props) {
           <Link href="#about">
             <button className="btn">About</button>
           </Link>
-          <Link href={""}>
+          <Link href="#experience">
             <button className="btn">Experience</button>
           </Link>
-          <Link href={""}>
+          <Link href="#skill">
             <button className="btn">Skills</button>
           </Link>
-          <Link href={""}>
+          <Link href="#project">
             <button className="btn">Project</button>
           </Link>
-          <Link href={""}>
+          {/* comming soon */}
+          <Link href="#">
             <button className="btn">Certificate</button>
+          </Link>
+          <Link href="#contact">
+            <button className="btn">Contact</button>
           </Link>
         </div>
       </div>
