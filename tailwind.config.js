@@ -17,6 +17,6 @@ module.exports = {
       fontWeight: ["hover"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
   mode: "jit",
 };
