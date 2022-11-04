@@ -32,8 +32,8 @@ export default {
       type: "date",
     },
     {
-      name: "isCurrentWorkingHere",
-      title: "IsCurrentWorkingHere",
+      name: "isCurrentlyWorkingHere",
+      title: "IsCurrentlyWorkingHere",
       type: "boolean",
     },
     {
@@ -47,12 +47,6 @@ export default {
       title: "Points",
       type: "array",
       of: [{ type: "string" }],
-    },
-    {
-      name: "socials",
-      title: "Socials",
-      type: "array",
-      of: [{ type: "reference", to: { type: "social" } }],
     },
   ],
 };

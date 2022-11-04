@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "porfolio-huydt"
+    "name": "porfolioHuyDT"
   },
   "api": {
-    "projectId": "0ufhdf2z",
+    "projectId": "vwn1u461",
     "dataset": "production"
   },
   "plugins": [
