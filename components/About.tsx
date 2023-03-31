@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import itsme from "../public/itsme.jpg";
+import itsme from "../public/me.jpg";
+
 type Props = {};
 
 export default function About({}: Props) {
@@ -25,13 +26,17 @@ export default function About({}: Props) {
       />
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">
-          Here is a{" "}
-          <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}
-          backgound
+          Hello, my name is {""}
+          <span className="underline decoration-[#F7AB0A]/50">Huy</span>{" "}
         </h4>{" "}
         <p className="text-base">
-          Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-          lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem{" "}
+          I am a front-end developer with more than one year of experience. I
+          have a passion for creating user-friendly and responsive websites
+          using HTML, CSS, and JavaScript. I have worked on several projects for
+          different clients, such as HCDC. I am always eager to learn new skills
+          and technologies to improve my work quality and efficiency. I am
+          looking forward to working with you and contributing to your team’s
+          success. Thank you for your time and attention.
         </p>
       </div>
     </div>
