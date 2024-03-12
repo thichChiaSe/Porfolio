@@ -2,10 +2,40 @@
 import React from "react";
 import { motion } from "framer-motion";
 import pj1 from "../public/pj1.png";
+import ihrp from "../public/iHRPv2.png";
+
+
 type Props = {};
 
 export default function Project({}: Props) {
   const pj = [1, 2, 3, 4, 5, 6];
+  const pjNew = [
+    {
+      id: 1,
+      src: "https://react-shop-inky.vercel.app/",
+      name: "Freshnesecom",
+      img: pj1,
+    },
+    {
+      id: 2,
+      src: "https://my-project-02.vercel.app/",
+      name: "Furnitown",
+      img: pj1,
+    },
+    {
+      id: 3,
+      src: "https://project-212ojvdrm-thichchiase.vercel.app/",
+      name: "Kymco",
+      img: pj1,
+    },
+    {
+      id: 4,
+      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      name: "iHrpV4.0",
+      img: ihrp,
+    },
+  ];
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -17,7 +47,7 @@ export default function Project({}: Props) {
         project
       </h3>
       <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar  scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/70">
-        {pj.map((project, i) => (
+        {pjNew.map((project, i) => (
           // eslint-disable-next-line react/jsx-key
           <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen ">
             <motion.img
@@ -25,7 +55,7 @@ export default function Project({}: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              src={pj1.src}
+              src={project.img.src}
               alt="project-1"
               className="w-[23%]"
             />
@@ -34,14 +64,11 @@ export default function Project({}: Props) {
                 <span className="underline decoration-[#F7AB0A]/50">
                   Case {i + 1} of {pj.length} :
                 </span>{" "}
-                project test
+                {project.name}
               </h4>
               <p className="text-lg text-center md:text-center">
-                <a
-                  className="bg-[#F7AB0A] p-2 rounded-md"
-                  href="https://react-shop-inky.vercel.app/"
-                >
-                  Visit website
+                <a className="bg-[#F7AB0A] p-2 rounded-md" href={project.src}>
+                  Visit websites
                 </a>
               </p>
             </div>

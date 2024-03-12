@@ -6,8 +6,10 @@ import Contact from "../components/Contact";
 import Experience from "../components/Experience";
 import Header from "../components/Header";
 import Project from "../components/Project";
+import { ProjectPage } from "../components/ProjectPage";
 import Skills from "../components/Skills";
 import TypeWritter from "../components/TypeWritter";
+import pj1 from "../public/pj1.png";
 
 const Home: NextPage = () => {
   return (
