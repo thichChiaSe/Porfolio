@@ -18,6 +18,12 @@ import mui from "../public/mui.png";
 import ant from "../public/ant-design.jpg";
 import git from "../public/git.png";
 import dev from "../public/devextreme.png";
+import docker from "../public/docker.jpg";
+import lensk8s from "../public/k8s.jpg";
+import nodejs from "../public/nodejs.jpg";
+import dotNet from "../public/dotnet.jpg";
+import postMan from "../public/Postman.jpg";
+
 type Props = {};
 
 export default function Skills({}: Props) {
@@ -100,17 +106,13 @@ export default function Skills({}: Props) {
             "font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "
           }
         />
-        <Skill
-          skill={"Tailwind"}
-          src={tailwind.src}
-          style={
-            ""
-          }
-        />
+        <Skill skill={"Tailwind"} src={tailwind.src} style={""} />
         <Skill
           skill={"Styled-component"}
           src={tsc.src}
-          style={"text-1xl font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "}
+          style={
+            "text-1xl font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "
+          }
         />
         <Skill
           skill={"Photoshop"}
@@ -143,6 +145,41 @@ export default function Skills({}: Props) {
         <Skill
           skill={"Figma"}
           src={figma.src}
+          style={
+            "font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "
+          }
+        />
+        <Skill
+          skill={"Docker"}
+          src={docker.src}
+          style={
+            "font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "
+          }
+        />
+        <Skill
+          skill={"Lens"}
+          src={lensk8s.src}
+          style={
+            "font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "
+          }
+        />
+        <Skill
+          skill={"dotNet"}
+          src={dotNet.src}
+          style={
+            "font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "
+          }
+        />
+        <Skill
+          skill={"NodeJS"}
+          src={nodejs.src}
+          style={
+            "font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "
+          }
+        />
+        <Skill
+          skill={"Postman"}
+          src={postMan.src}
           style={
             "font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "
           }

@@ -11,7 +11,7 @@ export default function TypeWritter({}: Props) {
     words: [
       "Hi, I'm Huy Do",
       "Dev and designer",
-      "const life = () => breath && pursueYourDreams()",
+      "const life = () => breath && code",
     ],
     loop: true,
     delaySpeed: 2000,

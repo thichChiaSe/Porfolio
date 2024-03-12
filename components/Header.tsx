@@ -12,19 +12,14 @@ function Header({}: Props) {
         transition={{ duration: 1.5 }}
       >
         <SocialIcon
-          url="http://twitter.com/"
-          fgColor="gray"
+          url="https://www.linkedin.com/in/huy-%C4%91%E1%BB%97-aa2100226/"
           bgColor="transparent"
+          fgColor="gray"
         />
         <SocialIcon
-          url="http://twitter.com/"
-          fgColor="gray"
+          url="https://github.com/thichChiaSe"
           bgColor="transparent"
-        />
-        <SocialIcon
-          url="http://twitter.com/"
           fgColor="gray"
-          bgColor="transparent"
         />
       </motion.div>
       <motion.div
@@ -39,9 +34,12 @@ function Header({}: Props) {
           bgColor="transparent"
           className="cursor-pointer"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-grey-400 cursor-pointer">
+        <a
+          href="#contact"
+          className="uppercase hidden md:inline-flex text-sm text-grey-400 cursor-pointer"
+        >
           Touch
-        </p>
+        </a>
       </motion.div>
     </header>
   );

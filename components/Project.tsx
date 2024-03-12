@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import pj1 from "../public/pj1.png";
 import ihrp from "../public/iHRPv2.png";
 
-
 type Props = {};
 
 export default function Project({}: Props) {
@@ -68,7 +67,7 @@ export default function Project({}: Props) {
               </h4>
               <p className="text-lg text-center md:text-center">
                 <a className="bg-[#F7AB0A] p-2 rounded-md" href={project.src}>
-                  Visit websites
+                  Visit website
                 </a>
               </p>
             </div>

@@ -51,9 +51,13 @@ export default function ExperienceCard({}: Props) {
         </p>
         <p className="uppercase py-5 text-gray-500">Participated projects :</p>
         <ul className="list-dist space-y-4 ml-5 text-lg">
-          <li>HaTien V2</li>
+          <li>HaTien Gov</li>
           <li>Task management</li>
-          <li>Data reconciliation</li>
+          <li>Data reconciliation (HCDC)</li>
+          <li>Datahub (EPIC)</li>
+          <li>Immuzation record (HCDC)</li>
+          <li>Risk assessment (HCDC)</li>
+          <li>TimeKeeping + Asset management (NHAN AI HOSPITAL)</li>
         </ul>
       </div>
     </article>
