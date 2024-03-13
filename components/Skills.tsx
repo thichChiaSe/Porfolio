@@ -17,7 +17,7 @@ import pts from "../public/pts.png";
 import mui from "../public/mui.png";
 import ant from "../public/ant-design.jpg";
 import git from "../public/git.png";
-import dev from "../public/devextreme.png";
+import devextremezzz from "../public/devextremezzz.png";
 import docker from "../public/docker.jpg";
 import lensk8s from "../public/k8s.jpg";
 import nodejs from "../public/nodejs.jpg";
@@ -136,8 +136,8 @@ export default function Skills({}: Props) {
           }
         />
         <Skill
-          skill={"Devextreme"}
-          src={dev.src}
+          skill={"devextreme"}
+          src={devextremezzz.src}
           style={
             "font-bold text-[#F7AB0B] opacity-100 object-contain flex justify-center "
           }
