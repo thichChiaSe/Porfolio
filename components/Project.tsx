@@ -1,11 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { motion } from "framer-motion";
-import Freshnesecom from "../public/pj1.png";
-import ihrp from "../public/iHRPv2.png";
-import kymco from "../public/kymco.png";
-import furnitown from "../public/furnitown.png";
-
+import Freshnesecom from "../public/project/pj1.png";
+import ihrp from "../public/project/iHRPv2.png";
+import kymco from "../public/project/kymco.png";
+import furnitown from "../public/project/furnitown.png";
+import tcxn from "../public/project/tcxn.png";
+import chis from "../public/project/chis.png";
+import nhanai from "../public/project/nhanai.png";
+import hatien from "../public/project/hatien.png";
+import privateZ from "../public/project/private.jpg";
 type Props = {};
 
 export default function Project({}: Props) {
@@ -13,22 +17,23 @@ export default function Project({}: Props) {
   const pjNew = [
     {
       id: 1,
-      src: "https://react-shop-inky.vercel.app/",
-      name: "Freshnesecom (Personal project)",
-      img: Freshnesecom,
+      src: "http://192.168.60.121:31028/login",
+      name: "TimeKeeping + Asset management (NHAN AI HOSPITAL)",
+      img: nhanai,
     },
     {
       id: 2,
-      src: "https://my-project-02.vercel.app/",
-      name: "Furnitown (Personal project)",
-      img: furnitown,
+      src: "https://tcxc.hcdc.vn/",
+      name: "Immuzation record",
+      img: tcxn,
     },
     {
       id: 3,
-      src: "https://project-212ojvdrm-thichchiase.vercel.app/",
-      name: "Kymco (Personal project)",
-      img: kymco,
+      src: "https://datalake-beta.hcdc.vn/",
+      name: "Datahub - CHIS",
+      img: chis,
     },
+   
     {
       id: 4,
       src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
@@ -37,45 +42,45 @@ export default function Project({}: Props) {
     },
     {
       id: 5,
-      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
-      name: "Datahub - CHIS",
-      img: ihrp,
+      src: "https://project-212ojvdrm-thichchiase.vercel.app/",
+      name: "Kymco (Personal project)",
+      img: kymco,
     },
     {
       id: 6,
-      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      src: "",
       name: "Task management",
-      img: ihrp,
+      img: privateZ,
     },
     {
       id: 7,
-      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      src: "",
       name: "Data reconciliation",
-      img: ihrp,
+      img: privateZ,
     },
     {
       id: 8,
-      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      src: "https://smarthatien.bakco.vn/",
       name: "HaTien Gov",
-      img: ihrp,
+      img: hatien,
     },
     {
       id: 9,
-      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
-      name: "Immuzation record",
-      img: ihrp,
+      src: "https://my-project-02.vercel.app/",
+      name: "Furnitown (Personal project)",
+      img: furnitown,
     },
     {
       id: 10,
-      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      src: "",
       name: "Risk assessment",
-      img: ihrp,
+      img: privateZ,
     },
     {
       id: 11,
-      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
-      name: "TimeKeeping + Asset management (NHAN AI HOSPITAL)",
-      img: ihrp,
+      src: "https://react-shop-inky.vercel.app/",
+      name: "Freshnesecom (Personal project)",
+      img: Freshnesecom,
     },
   ];
 
