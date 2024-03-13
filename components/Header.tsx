@@ -1,8 +1,24 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
+
 type Props = {};
 import { motion } from "framer-motion";
 function Header({}: Props) {
+  const handleDownload = () => {
+    fetch("/DoTuanHuy_FrontEndDev.pdf")
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", "DoTuanHuy_FrontEndDev.pdf");
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch((error) => console.error("Error downloading PDF:", error));
+  };
+
   return (
     <header className="sticky top-0 p-5 flex  items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
       <motion.div
@@ -40,6 +56,13 @@ function Header({}: Props) {
         >
           Touch
         </a>
+        <span className="ml-4">|</span>
+        <button
+          onClick={handleDownload}
+          className="uppercase hidden md:inline-flex text-sm text-grey-400 cursor-pointer ml-4"
+        >
+          Download CV
+        </button>
       </motion.div>
     </header>
   );
