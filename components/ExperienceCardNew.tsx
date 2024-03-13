@@ -7,7 +7,7 @@ import html from "../public/html.png";
 import js from "../public/java-script.png";
 import ts from "../public/typescript.png";
 import saga from "../public/redux.png";
-import devExtreme from '../public/devextreme.png'
+import devExtreme from '../public/devextremezzz.png'
 import ant from '../public/ant-design.jpg'
 
 type Props = {};
