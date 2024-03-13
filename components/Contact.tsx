@@ -74,8 +74,7 @@ export default function Contact({}: Props) {
         </form>
         <section>
           <span className="text-[#F7AB0A]">
-            THIS WEBSITE IS COPIED STYLE/DESIGN FROM "SONNY SHANGHA" TO PRATICE
-            AND IMPROVE MY SKILL IN WEB DEVELOP
+           THIS WEBSITE IS COPIED STYLE/DESIGN FROM `SONNY SHANGHA` TO PRATICE AND IMPROVE MY SKILL IN WEB DEVELOP
           </span>
         </section>
       </div>
