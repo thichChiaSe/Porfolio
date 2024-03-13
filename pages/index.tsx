@@ -21,6 +21,7 @@ const Home: NextPage = () => {
       {/* Header*/}
       <Header />
       {/* Typewriter  */}
+    
       <section id="text-auto" className="snap-start">
         <TypeWritter />
       </section>
@@ -48,6 +49,7 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-center">
         <Contact />
       </section>
+   
     </div>
   );
 };
