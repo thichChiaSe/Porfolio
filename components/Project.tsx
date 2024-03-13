@@ -1,36 +1,80 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { motion } from "framer-motion";
-import pj1 from "../public/pj1.png";
+import Freshnesecom from "../public/pj1.png";
 import ihrp from "../public/iHRPv2.png";
+import kymco from "../public/kymco.png";
+import furnitown from "../public/furnitown.png";
 
 type Props = {};
 
 export default function Project({}: Props) {
-  const pj = [1, 2, 3, 4, 5, 6];
+  const pj = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
   const pjNew = [
     {
       id: 1,
       src: "https://react-shop-inky.vercel.app/",
-      name: "Freshnesecom",
-      img: pj1,
+      name: "Freshnesecom (Personal project)",
+      img: Freshnesecom,
     },
     {
       id: 2,
       src: "https://my-project-02.vercel.app/",
-      name: "Furnitown",
-      img: pj1,
+      name: "Furnitown (Personal project)",
+      img: furnitown,
     },
     {
       id: 3,
       src: "https://project-212ojvdrm-thichchiase.vercel.app/",
-      name: "Kymco",
-      img: pj1,
+      name: "Kymco (Personal project)",
+      img: kymco,
     },
     {
       id: 4,
       src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
       name: "iHrpV4.0",
+      img: ihrp,
+    },
+    {
+      id: 5,
+      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      name: "Datahub - CHIS",
+      img: ihrp,
+    },
+    {
+      id: 6,
+      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      name: "Task management",
+      img: ihrp,
+    },
+    {
+      id: 7,
+      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      name: "Data reconciliation",
+      img: ihrp,
+    },
+    {
+      id: 8,
+      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      name: "HaTien Gov",
+      img: ihrp,
+    },
+    {
+      id: 9,
+      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      name: "Immuzation record",
+      img: ihrp,
+    },
+    {
+      id: 10,
+      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      name: "Risk assessment",
+      img: ihrp,
+    },
+    {
+      id: 11,
+      src: "https://i.pinimg.com/originals/6b/cb/4e/6bcb4e3b58fb70dd96eda001d9daee7b.png",
+      name: "TimeKeeping + Asset management (NHAN AI HOSPITAL)",
       img: ihrp,
     },
   ];
@@ -56,7 +100,7 @@ export default function Project({}: Props) {
               viewport={{ once: true }}
               src={project.img.src}
               alt="project-1"
-              className="w-[23%]"
+              className="w-[23%] "
             />
             <div className="space-y-10 px-0 md:px-10 max-w-6xl ">
               <h4 className="text-4xl font-semibold text-center">
